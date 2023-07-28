@@ -1,0 +1,32 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.s1 {
+  display: flex;
+  justify-content: center;
+}
+.s1 ul {
+  list-style: none;
+}
+
+.s3 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.s3 .titre {
+  display: flex;
+  justify-content: center;
+}
+.s3 .fumeur {
+  display: block;
+  position: absolute;
+  bottom: -7vw;
+  width: 100vw;
+  overflow: hidden;
+}
+.s3 .fumeur img {
+  width: 100vw;
+}/*# sourceMappingURL=style_main.css.map */

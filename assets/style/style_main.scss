@@ -1,0 +1,38 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.s1 {
+    display: flex;
+    justify-content: center;
+    ul {
+        list-style: none;
+
+        
+    }
+
+    @for $i from 1 through 5 {
+
+    }
+}
+
+.s3 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    .titre {
+        display: flex;
+        justify-content: center;
+    }
+    .fumeur{
+        display: block;
+        position:absolute;
+        bottom: -7vw;  //ajuste la hauteur du dessin
+        width: 100vw;
+        overflow: hidden;
+        img {
+            width: 100vw;
+        }
+    }
+}
