@@ -3,24 +3,12 @@ body {
     color: #fff;
 }
 
-.s1 {
-    display: flex;
-    justify-content: center;
-    ul {
-        list-style: none;
-
-        
-    }
-
-    @for $i from 1 through 5 {
-
-    }
-}
-
-.s3 {
+.hero {
     display: flex;
     flex-flow: column;
     align-items: center;
+    height: 100vh;
+    overflow: hidden;
     .titre {
         display: flex;
         justify-content: center;
@@ -30,9 +18,20 @@ body {
         position:absolute;
         bottom: -7vw;  //ajuste la hauteur du dessin
         width: 100vw;
-        overflow: hidden;
+        // overflow: hidden;
         img {
             width: 100vw;
         }
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    padding: 20%;
+    .choix {
+        list-style: none;
+        text-align: center;
     }
 }
